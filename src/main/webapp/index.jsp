@@ -1,4 +1,3 @@
-<%@ page language="java" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <body>
@@ -6,6 +5,5 @@
 	var context = window.location.href;
 	window.location.href = context + "vdc/index";
 </script>
-HELLO 你好！
 </body>
 </html>

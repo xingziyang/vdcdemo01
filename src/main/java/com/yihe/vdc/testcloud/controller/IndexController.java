@@ -19,6 +19,7 @@ public class IndexController {
 	@RequestMapping("/index")
 	public String index(HttpServletRequest request, Model model) {
 		model.addAttribute("message", "hello 第一个vdcdemo!");
+		model.addAttribute("newmessage", "我是新增的message！");
 		return "/vdc/index";
 	}
 }
