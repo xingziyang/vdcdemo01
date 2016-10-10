@@ -3,8 +3,8 @@
 <html>
 <body>
 <script language="javascript" type="text/javascript">
-	/* var context = window.location.href;
-	window.location.href = context + "vdc/index"; */
+	var context = window.location.href;
+	window.location.href = context + "vdc/index";
 </script>
 HELLO 你好！
 </body>
